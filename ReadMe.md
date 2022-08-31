@@ -35,4 +35,6 @@ The aim of this project is to answer the following questions:
 
 ## Power BI Visualization Dashboard
 
-Power BI Dashboard link: 
+Power BI Dashboard link: https://github.com/indtheblacktiger/Indian-Airlines-Ticket-Price-Analysis/blob/master/Indian%20Airline%20Ticket%20Prices%20Dashboard.pdf
+
+Using Power BI Dashboard one can quickly get to know ticket prices between different cities flying with different airlines in different classes along with flight duration
