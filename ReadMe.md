@@ -1,9 +1,9 @@
 # Indian Airlines Ticket Price Analysis
 
 ## About the dataset
-Dataset Link: 
+Dataset Link: https://github.com/indtheblacktiger/Indian-Airlines-Ticket-Price-Analysis/tree/master/Dataset
 
-Dataset contains information about flight booking options from the website 'Easemytrip' for flight travel between India's top 6 metro cities. There are 300261 datapoints and 11 features in the cleaned dataset.
+Dataset contains information about flight booking options from the website 'Easemytrip' for flight travel between India's top 6 metro cities. There are 300261 datapoints and 11 features in the cleaned dataset. Data was collected in two parts: one for economy class tickets and another for business class tickets. A total of 300261 distinct flight booking options was extracted from the site. Data was collected for 50 days, from February 11th to March 31st, 2022. Data source was secondary data and was collected from Ease my trip website.
 
 The various features of the cleaned dataset are explained below:
 1) Airline: The name of the airline company is stored in the airline column. It is a categorical feature having 6 different airlines.
@@ -31,4 +31,8 @@ The aim of this project is to answer the following questions:
 7) How does price of ticket vary depending on duration of flight?
 8) How does ticket price vary according to departure time and arrival time?
 9) How does ticket price vary depending on source and destination?
-10)How does price of tickets vary based on no. of stops and airline?
+10) How does price of tickets vary based on no. of stops and airline?
+
+## Power BI Visualization Dashboard
+
+Power BI Dashboard link: 
