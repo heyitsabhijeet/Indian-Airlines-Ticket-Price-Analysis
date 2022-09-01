@@ -1,40 +1,39 @@
 # Indian Airlines Ticket Price Analysis
 
-## About the dataset
-Dataset Link: https://github.com/indtheblacktiger/Indian-Airlines-Ticket-Price-Analysis/tree/master/Dataset
+## Objective
 
-Dataset contains information about flight booking options from the website 'Easemytrip' for flight travel between India's top 6 metro cities. There are 300261 datapoints and 11 features in the cleaned dataset. Data was collected in two parts: one for economy class tickets and another for business class tickets. A total of 300261 distinct flight booking options was extracted from the site. Data was collected for 50 days, from February 11th to March 31st, 2022. Data source was secondary data and was collected from Ease my trip website.
+As an aviation enthusiast, I always look forward to flying whenever I plan to travel. Since the Covid-19 pandemic ended, aviation market began to recover slowly from rock bottom ticket prices in peak of pandemic. With the war in Ukraine and rise in ATF prices, ticket prices have been through the roof reaching new high. As a result of this, I decided to an exploratory data analysis for ticket prices to better understand the factors affecting ticket prices in India.
+I aim to answer questions like No. of flights, Ticket availability across different class, Price range across different class, etc.
+
+## About the dataset
+
+The dataset includes details on the ticket booking alternatives available through the website "Easemytrip" for flights between India's top 6 metro areas. The cleaned dataset contains 11 characteristics and 300261 datapoints. Data was gathered in two stages: for business class tickets and for economy class tickets. The site provided a total of 300261 unique flight booking possibilities. 50 days of data were gathered, from February 11 to March 31 of 2022. Data was gathered from the Kaggle datasets and was considered secondary data.
+Dataset Link: [Kaggle](https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction)
 
 The various features of the cleaned dataset are explained below:
-1) Airline: The name of the airline company is stored in the airline column. It is a categorical feature having 6 different airlines.
-2) Flight: Flight stores information regarding the plane's flight code. It is a categorical feature.
-3) Source City: City from which the flight takes off. It is a categorical feature having 6 unique cities.
-4) Departure Time: This is a derived categorical feature obtained created by grouping time periods into bins. It stores information about the departure time and have 6 unique time labels.
-5) Stops: A categorical feature with 3 distinct values that stores the number of stops between the source and destination cities.
-6) Arrival Time: This is a derived categorical feature created by grouping time intervals into bins. It has six distinct time labels and keeps information about the arrival time.
-7) Destination City: City where the flight will land. It is a categorical feature having 6 unique cities.
-8) Class: A categorical feature that contains information on seat class; it has two distinct values: Business and Economy.
-9) Duration: A continuous feature that displays the overall amount of time it takes to travel between cities in hours.
-10)Days Left: This is a derived characteristic that is calculated by subtracting the trip date by the booking date.
-11) Price: Target variable stores information of the ticket price.
-
-## Research Questions
-
-The aim of this project is to answer the following questions:
-
-1) What are number of flights operated by each airline?
-2) What is price range according to class of travel?
-3) What is availability of Tickets according to class of travel?
-4) What is price of ticket for different airlines based on duration of flight? 
-5) How do ticket prices vary across different airlines and class of travel?
-6) How do airline ticket prices vary depending on when you buy them?
-7) How does price of ticket vary depending on duration of flight?
-8) How does ticket price vary according to departure time and arrival time?
-9) How does ticket price vary depending on source and destination?
-10) How does price of tickets vary based on no. of stops and airline?
+1) Airline: The airline column contains the name of the airline firm. There are six different airlines, making it a category trait.
+2) Flight: The flight code of the aircraft is stored in flight.
+3) Source City: City where the flight departs from is a classification feature with 6 distinctive cities.
+4) Departure Time: This is a categorical feature that was deduced from time periods being divided into bins. It has six different time labels and stores information about the departure time.
+5) Stops: A category feature that holds the number of stops between the source and destination cities and has 3 different values.
+6) Arrival Time: This derived categorical feature was developed by binning time intervals. It maintains information regarding the arrival time and has six different time labels.
+7) Destination City: The location of the aircraft's landing. It is a classification feature with 6 distinctive cities.
+8) Class: A permanent feature that shows the total number of hours needed to travel between cities.
+9) Duration: A permanent feature that shows the total number of hours needed to travel between cities.
+10)Days Left: The trip date is subtracted from the booking date to arrive at this derived feature.
+11) Price: Information about the ticket price is stored in the target variable.
 
 ## Power BI Visualization Dashboard
 
-Power BI Dashboard link: https://github.com/indtheblacktiger/Indian-Airlines-Ticket-Price-Analysis/blob/master/Indian%20Airline%20Ticket%20Prices%20Dashboard.pdf
+Click on [Power BI Dashboard](https://github.com/indtheblacktiger/Indian-Airlines-Ticket-Price-Analysis/blob/master/Indian%20Airline%20Ticket%20Prices%20Dashboard.pdf) to view the dashboard
 
 Using Power BI Dashboard one can quickly get to know ticket prices between different cities flying with different airlines in different classes along with flight duration
+
+## Conclusion
+
+1) 'Air Asia' offers the cheapest flight tickets while flying Economy class while 'Air India' is cheapest while flying Business class.
+2) Booking tickets 3-7 weeks before travel will be cheaper than buying them within 3 weeks of travel as prices rise rapidly in 2-20 days period. Tickets can be cheap when bought just 1 day before however they might not be as cheap as when bought more than 3 weeks before
+3) Ticket price grow linearly with duration of flight peaking when duration of flight reaches 20 hours. However due to some outliers they again fall for for flights with duration of more than 20 hours. Relation can be approximated by 2nd degree curve
+4) Flight departing late at night and arriving early morning or late at night are cheapest.
+5) Flight prices increase with increase in number of stops.
+6) Delhi offers the cheapest flights while Hyderabad is most expensive city to fly to
