@@ -2,13 +2,14 @@
 
 ## Objective
 
-As an aviation enthusiast, I always look forward to flying whenever I plan to travel. Since the Covid-19 pandemic ended, aviation market began to recover slowly from rock bottom ticket prices in peak of pandemic. With the war in Ukraine and rise in ATF prices, ticket prices have been through the roof reaching new high. As a result of this, I decided to an exploratory data analysis for ticket prices to better understand the factors affecting ticket prices in India.
-I aim to answer questions like No. of flights, Ticket availability across different class, Price range across different class, etc.
+As an aviation enthusiast, I always look forward to flying whenever I plan to travel. Since the Covid-19 pandemic ended, aviation market began to recover slowly from rock bottom ticket prices in peak of pandemic. With the war in Ukraine and rise in ATF prices, ticket prices have been through the roof reaching new high. As a result of this, I decided to do an exploratory data analysis for ticket prices to better understand the factors affecting them in India.
+I aim to answer questions like No. of flights available across India, Ticket availability across different class, Price range across different class, etc.
 Check out the project [here](https://github.com/indtheblacktiger/Indian-Airlines-Ticket-Price-Analysis/blob/master/India%20Airlines%20Ticket%20Price%20Exploratory%20Analysis.ipynb)
 
 ## About the dataset
 
-The dataset includes details on the ticket booking alternatives available through the website "Easemytrip" for flights between India's top 6 metro areas. The cleaned dataset contains 11 characteristics and 300261 datapoints. Data was gathered in two stages: for business class tickets and for economy class tickets. The site provided a total of 300261 unique flight booking possibilities. 50 days of data were gathered, from February 11 to March 31 of 2022. Data was gathered from the Kaggle datasets and was considered secondary data.
+Data is gathered from the Kaggle and considered as secondary data.
+The dataset includes details on the ticket booking alternatives available through the website "Easemytrip" for flights between India's top 6 metro areas. The cleaned dataset contains 11 characteristics and 300261 datapoints. Data was gathered in two stages: for business class tickets and for economy class tickets. The site provided a total of 300261 unique flight booking possibilities. 50 days of data were gathered, from February 11 to March 31 of 2022. 
 Dataset Link: [Kaggle](https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction)
 
 The various features of the cleaned dataset are explained below:
